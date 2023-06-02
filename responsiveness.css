@@ -1,0 +1,264 @@
+@media screen and (max-width: 320px)
+{
+    .first_sect{
+        background-image: url(./images/back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    .first_banner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .logo{
+        margin-right: 0px;
+        width: 100px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+    }
+    .phone{
+        width: 9%;
+    }
+    .phone img{
+        width: 100%;
+    }
+    .number{
+        margin-right: 20px;
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .number p{
+        font-size: 12px;
+        margin: 0;
+        text-align: right;
+        width: 100%;
+        font-weight: 700;
+    }
+    .number h1{
+        font-size: 20px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+
+    .menu{
+        margin-left: 0px;
+        justify-content: center;
+        display: flex;
+    }
+    .menu ul{
+        display: flex;
+    }
+    .menu ul li{
+        padding: 0px 10px;
+        list-style-type: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .left_ban{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+    }
+
+    .right_ban{
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .first_img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .first_img img{
+        width: 100%;
+        overflow: hidden;
+    }
+    .flowers{
+        position: absolute;
+    }
+    .flowers .spaghetti{
+        right: 0px;
+        position: relative;
+        width: 20%;
+    }
+    .flowers .spaghetti img{
+        width: 100%;
+    }
+    .flowers .leaf{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        width: 20%;
+    }
+    .flowers .leaf img{
+        width: 100%;
+    }
+    .flowers .pasta{
+        position: relative;
+        left: 0px;
+        width: 20%;
+    }
+    .flowers .pasta img{
+        width: 100%;
+    }
+    .flowers .tomato{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        width: 20%;
+    }
+    .flowers .tomato img{
+        width: 100%;
+    }
+    .flowers .leaf2{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        width: 20%;
+    }
+    .flowers .leaf2 img{
+        width: 100%;
+    }
+    .second_sect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose{
+        text-align: center;
+    }
+    .choose h1{
+        font-family: 'Fredericka the Great Regular';
+        font-size: 30px;
+        font-weight: 300;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .choose p{
+        padding: 0px 20px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .food_base{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .food_base img{
+        width: 100%;
+    }
+    .long{
+        width: 300px;
+    }
+    .long img{
+        width: 100%;
+    }
+    .bread{
+        width: 200px;
+    }
+    .bread img{
+        width: 100%;
+    }
+    .soup{
+        width: 300px;
+    }
+    .soup img{
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 380px;
+        height: 500px;
+        margin-top: 120px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card_detail h1{
+        font-size: 18px;
+        font-weight: 800;
+        text-align: center;
+        margin: 0;
+    }
+    .card_detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card_detail p{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        margin: 10px 0px;
+    }
+    .card_detail button{
+        padding: 10px 5px;
+        margin: 0px 110px;
+        margin-top: 5px;
+        /* height: 40px; */
+        background-color: yellow;
+        border: none;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .third_section{
+        display: flex;
+        justify-content: center;
+        margin-top: 350px;
+    }
+    .third_top{
+        text-align: center;
+    }
+    .third_top .discover{
+        font-size: 15px;
+        font-weight: 800;
+        margin: 0;
+    }
+    .third_top h1{
+        font-family: 'Fredericka the Great Regular';
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0;
+    }
+    .lorem{
+        padding: 0px 20px;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
